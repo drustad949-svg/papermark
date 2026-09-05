@@ -24,7 +24,7 @@ import { getIpAddress } from "@/lib/utils/ip";
 const VERCEL_DEPLOYMENT = !!process.env.VERCEL_URL;
 
 function getMainDomainUrl(): string {
-  if (process.env.NODE_ENV === "development") {
+  if (process.env.NODE_ENV === "true") {
     return process.env.NEXTAUTH_URL || "http://localhost:3000";
   }
   return process.env.NEXTAUTH_URL || "https://app.papermark.com";
