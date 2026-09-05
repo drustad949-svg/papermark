@@ -174,9 +174,11 @@
     "prisma": "^6.5.0",
     "typescript": "^5"
   },
-  "overrides": {
-    "react-notion-x": {
-      "react-pdf": "8.0.2"
-    }
+"overrides": {
+  "react-notion-x": {
+    "react-pdf": "8.0.2"
+  },
+  "@react-email/preview-server": {
+    "next": "16.0.10"
   }
 }
